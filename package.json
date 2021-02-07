@@ -1,0 +1,28 @@
+{
+  "name": "WDS-password-login",
+  "version": "1.0.0",
+  "description": "WDS-Build Node.js User Authentication - Password Login",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mynameiskatchy/WDS-password-login.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mynameiskatchy/WDS-password-login/issues"
+  },
+  "homepage": "https://github.com/mynameiskatchy/WDS-password-login#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
